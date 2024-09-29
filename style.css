@@ -41,14 +41,14 @@ border-radius: 0.31em;
 }
 
 input{
-    background-color: #cecece;
+    background-color: #d6cece;
     color: black;
     padding: 1.2em 1.25em;
     font-size: 0.87em;
 }
 
 button{
-    color: black;
+    color: black; 
     background-color: #cecece;
 }
 

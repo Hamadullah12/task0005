@@ -13,9 +13,33 @@ const ageCalculate = () => {
 
 
     if (isFututreData(birthDetails, currentYear, currentMonth, currentDate)) {
-        alert()
+        alert("It cant be empty");
+        displayResult("-", "-", "-");
+        return;
     }
+    const { years, months, days } = calculateAge(
+        birthDetails,
+        currentYear,
+        currentMonth,
+        currentDate
+    );
+
+    displayResult(days, months, years);
+
+};
+const isFututreData = (birthDetails,
+    currentYear,
+    currentMonth,
+    currentDate
+) => {
+    return (
+        birthDetails.year > currentYear ||
+        (birthDetails.year === currentYear && (
+            birthDetails.month
+        ))
+    )
 
 }
+
 document.getElementById("calc-age-btn").
     addEventListener("click", ageCalculate);

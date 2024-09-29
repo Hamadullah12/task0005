@@ -5,11 +5,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+body {
     background-color: rgb(28, 64, 161);
 }
 
-.container{
+.container {
     width: min(40%, 28.12em);
     width: 68%;
     position: absolute;
@@ -18,13 +18,13 @@ body{
     left: 50%;
 }
 
-.container *{
+.container * {
     border: none;
     outline: none;
 }
 
 .input-wrapper {
-    background-color: black ;
+    background-color: black;
     padding: 1.87em 1.5em;
     border-radius: 0.5em;
     box-shadow: 0 0.93em 1.25em rgba(0, 0, 0, 0.3);
@@ -35,30 +35,30 @@ body{
 }
 
 input,
-button{
-font-weight: 500;
-border-radius: 0.31em;
+button {
+    font-weight: 500;
+    border-radius: 0.31em;
 }
 
-input{
+input {
     background-color: #d6cece;
     color: black;
     padding: 1.2em 1.25em;
     font-size: 0.87em;
 }
 
-button{
-    color: black; 
+button {
+    color: black;
     background-color: #cecece;
 }
 
-.output-wrapper{
+.output-wrapper {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.output-wrapper div{
+.output-wrapper div {
     height: 6.25em;
     width: 6.25em;
     background-color: black;
@@ -67,15 +67,15 @@ button{
     display: grid;
     place-items: center;
     padding: 1.25em 0;
-    box-shadow: 0  0.93em 1.25em rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0.93em 1.25em rgba(0, 0, 0, 0.3);
 }
 
-span{
+span {
     font-size: 1.87em;
     font-weight: 500;
 }
 
-p{
+p {
     font-size: 1.07em;
     color: rgb(155, 151, 151);
     font-weight: 400;

@@ -11,6 +11,7 @@ body{
 
 .container{
     width: min(40%, 28.12em);
+    width: 68%;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -46,3 +47,36 @@ input{
     font-size: 0.87em;
 }
 
+button{
+    color: black;
+    background-color: #cecece;
+}
+
+.output-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.output-wrapper div{
+    height: 6.25em;
+    width: 6.25em;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 0.31em;
+    display: grid;
+    place-items: center;
+    padding: 1.25em 0;
+    box-shadow: 0  0.93em 1.25em rgba(0, 0, 0, 0.3);
+}
+
+span{
+    font-size: 1.87em;
+    font-weight: 500;
+}
+
+p{
+    font-size: 1.07em;
+    color: rgb(155, 151, 151);
+    font-weight: 400;
+}
